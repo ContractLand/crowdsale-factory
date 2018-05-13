@@ -1,0 +1,39 @@
+{
+  "name": "crowdsale-factory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "deploy-local": "truffle migrate --network development",
+    "deploy-ropsten": "truffle migrate --network ropsten",
+    "deploy-mainnet": "truffle migrate --network mainnet",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ContractLand/crowdsale-factory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ContractLand/crowdsale-factory/issues"
+  },
+  "homepage": "https://github.com/ContractLand/crowdsale-factory",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.26.0",
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "0.0.3",
+    "zeppelin-solidity": "1.7.0"
+  }
+}
